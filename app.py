@@ -12,6 +12,8 @@ import redis
 import uuid
 from pydub import AudioSegment
 
+AudioSegment.ffmpeg = "/home/sagnik/Downloads/opencv-2.4.13/3rdparty/ffmpeg"
+
 	
 def gettoken(uid):
 	red = redis.from_url(redis_url)
