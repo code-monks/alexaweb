@@ -6,4 +6,4 @@ Client_Secret = "e8e34b220adee35adeff5189077e2b7cab3e46e5ba54c1cb3802a0793c3d75d
 Product_ID = "youngmongsalexaweb"
 
 #Redis
-redis_url = ""
+redis_url = "redis://localhost:6379/0"
